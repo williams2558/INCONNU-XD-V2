@@ -5,10 +5,10 @@ require("dotenv").config();
 const config = {
   SESSION_ID: process.env.SESSION_ID || "",
   PREFIX: process.env.PREFIX || '.',
-   BOT_NAME: process.env.BOT_NAME || "INCONNU XD V2",
+   BOT_NAME: process.env.BOT_NAME || "𝔞𝔰𝔪𝔬𝔡𝔢V2",
    BOT: process.env.BOT || "hello 👋",
-  NEW_CMD: process.env.NEW_CMD || "ᴀᴅᴅᴠᴀʀ\n│ sᴜᴅᴏ\n| inconnu",
-  CAPTION: process.env.CAPTION|| "ᴘᴏᴡᴇʀᴇᴅ ʙʏ inconnu boy",
+  NEW_CMD: process.env.NEW_CMD || "ᴀᴅᴅᴠᴀʀ\n│ sᴜᴅᴏ\n| 𝔞𝔰𝔪𝔬𝔡𝔢",
+  CAPTION: process.env.CAPTION|| "ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝔎𝔦𝔫𝔤 𝔞𝔰𝔪𝔬𝔡𝔢",
   AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN !== undefined ? process.env.AUTO_STATUS_SEEN === 'true' : true,
   AUTO_BIO: process.env.AUTO_BIO !== undefined ? process.env.AUTO_BIO === 'true' : true,
   AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT !== undefined ? process.env.AUTO_STATUS_REACT === 'true' : true,
@@ -19,6 +19,7 @@ const config = {
   VOICE_CHAT_BOT: process.env.VOICE_CHAT_BOT !== undefined ? process.env.VOICE_CHAT_BOT === 'true' : false,
   AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT !== undefined ? process.env.AUTO_STATUS_REACT === 'true' : true,
   ANTILINK: process.env.ANTILINK !== undefined ? process.env.ANTILINK === 'true' : false,
+   ANTIBAN: process.env.ANTIBAN !== undefined ? process.env.ANTIBAN === 'true' : false,
   ANTI_LEFT: process.env.ANTI_LEFT !== undefined ? process.env.ANTI_LEFT === 'true' : true,
   AUTO_STICKER: process.env.AUTO_STICKER !== undefined ? process.env.AUTO_STICKER === 'true' : false,
   AUTO_READ: process.env.AUTO_READ !== undefined ? process.env.AUTO_READ === 'true' : false,
@@ -27,7 +28,7 @@ const config = {
   ALWAYS_ONLINE: process.env.ALWAYS_ONLINE !== undefined ? process.env.ALWAYS_ONLINE === 'true' : false,
   AUTO_REACT: process.env.AUTO_REACT !== undefined ? process.env.AUTO_REACT === 'true' : false,
   AUTO_BLOCK: process.env.AUTO_BLOCK !== undefined ? process.env.AUTO_BLOCK === 'true' : true,
-  /*joel james tech added anti delete cmd*/
+  /*𝔎𝔦𝔫𝔤 𝔞𝔰𝔪𝔬𝔡𝔢 delete cmd*/
   ANTI_DELETE: process.env.ANTI_DELETE !== undefined ? process.env.ANTI_DELETE === 'true' : false,
   /*lets add auto bot respond*/
   CHAT_BOT: process.env.CHAT_BOT !== undefined ? process.env.CHAT_BOT === 'true' : false,
@@ -40,8 +41,8 @@ const config = {
   MODE: process.env.MODE || "public",
   DELETED_MESSAGES_CHAT_ID: process.env.DELETED_MESSAGES_CHAT_ID || "554488138425@s.whatsapp.net",
   OWNER_NAME: process.env.OWNER_NAME || "INCONNU BOY",
-  OWNER_NUMBER: process.env.OWNER_NUMBER || "554488138425",
-  SUDO_NUMBER: process.env.SUDO_NUMBER || "554488138425",
+  OWNER_NUMBER: process.env.OWNER_NUMBER || "658343145",
+  SUDO_NUMBER: process.env.SUDO_NUMBER || "658343145",
   GEMINI_KEY: process.env.GEMINI_KEY || "AIzaSyCUPaxfIdZawsKZKqCqJcC-GWiQPCXKTDc",
   WELCOME: process.env.WELCOME !== undefined ? process.env.WELCOME === 'true' : false, 
 };
