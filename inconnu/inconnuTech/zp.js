@@ -60,7 +60,7 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
 
       await gss.sendImageAsSticker(m.from, buffer, m, {
         packname: "",
-        author: "> 🚀 INCONNU-XD-V2"
+        author: "> 🚀 𝔎𝔦𝔫𝔤 𝔞𝔰𝔪𝔬𝔡𝔢𝔢"
       });
     } catch (error) {
       console.error('Error during HTTP request:', error);
