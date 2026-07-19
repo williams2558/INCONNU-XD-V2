@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="c:\Users\sidon\Downloads\asmodee.webp" width="800"/>
+  <img src="c:\Users\sidon\Downloads\asmodee.ping" width="800"/>
 </p>
 ---
 
